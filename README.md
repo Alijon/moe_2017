@@ -19,3 +19,5 @@
 `node index.js`
 
 Публикация данных журнала “Наносистемы” (http://nanojournal.ifmo.ru)
+
+Пример запросы sparql (https://github.com/Alijon/moe_2017/blob/master/sparql.example)
