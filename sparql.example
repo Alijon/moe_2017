@@ -1,0 +1,19 @@
+SELECT ?title  ?date
+WHERE { ?x foaf:title ?title .
+  		?x foaf:date ?date
+}
+
+SELECT ?title  ?date
+WHERE { ?x foaf:title ?title .
+  		?x foaf:date ?date .
+  			?x foaf:author ?author
+  		FILTER( ?author =  "admin")
+}
+
+
+SELECT ?author ?title  ?date
+WHERE { ?x foaf:title ?title .
+  		?x foaf:date ?date .
+  ?x foaf:author ?author
+  		FILTER( ?date =  "07.09.2014")
+}
