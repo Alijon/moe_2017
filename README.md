@@ -9,15 +9,7 @@
 * развертывание SPARQL-точки доступа (используя Apache Fuseki) и Linked Data интерфейса (используя Pubby),
 * описание датасета с помощью VoID онтологии.
 
-Установка nodejs
-`https://nodejs.org/en/`
 
-Установка проекта:
-`npm install`
-
-Запустить проект
-`node index.js`
-
-Публикация данных журнала “Наносистемы” (http://nanojournal.ifmo.ru)
+Публикация данных журнала “ОПТИЧЕСКИЙ ЖУРНАЛ” (http://opticjourn.ru/
 
 Пример запросы sparql (https://github.com/Alijon/moe_2017/blob/master/sparql.example)
